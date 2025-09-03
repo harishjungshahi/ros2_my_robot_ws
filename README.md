@@ -4,16 +4,6 @@ Welcome to **ros2_my_robot_ws**! This workspace includes a **mobile robot** with
 
 ---
 
-## 🤖 Robot Preview
-
-### Static Diagram
-![Robot Diagram](assets/robot_diagram.png)
-
-### Live Simulation (GIF)
-![Robot in Gazebo](assets/robot_motion.gif)
-
----
-
 ## 🚀 Features
 
 | Component        | Description |
@@ -24,13 +14,14 @@ Welcome to **ros2_my_robot_ws**! This workspace includes a **mobile robot** with
 | **Visualization**| Use RViz to view robot model, joints, and sensors in real-time. |
 | **Simulation**   | Pre-configured for ROS 2 + ros_gz_sim / Gazebo. |
 
-...
+---
 
+## 🛠 Installation
 
-## 🤖 Robot Preview
+### 1️⃣ Clone Repository
 
-### Static Diagram
-![Robot Diagram](assets/robot_diagram.png)
+```bash
+cd ~/ros2_ws/src
+git clone https://github.com/harishjungshahi/ros2_my_robot_ws.git
+cd ~/ros2_ws
 
-### Live Simulation (GIF)
-![Robot in Gazebo](assets/robot_motion.gif)
